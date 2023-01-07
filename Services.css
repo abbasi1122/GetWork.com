@@ -1,0 +1,27 @@
+li:hover{
+
+background-color: rgba(80,48,48,0.7);
+  opacity: 1;
+font-size:18px;
+ text-decoration: line-though;
+
+}
+
+a:hover{	
+color:white;
+	
+}
+h1{
+	color:black;
+}
+p{
+	color:black;
+}
+body {
+	
+ background-color:#ffffff;
+ background-repeat:no-repeat;
+ background-size:cover;
+   color:white;
+  text-align:left;
+}

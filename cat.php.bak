@@ -1,0 +1,89 @@
+<?php include('header.php'); ?>
+<?php include('server.php'); ?>
+<style>
+	<?php include('cat.css'); ?>
+</style>
+
+<body>
+	<?php include('navbar.php'); ?>
+
+	<div class="container">
+		<h1 class="page-header text-center">CATEGORIES</h1>
+
+		<!-- <ul>
+			<li><a href="Security Services">Security Services</a></li>
+			<li><a href="Electrician Services">Electrician Services</a></li>
+			<li><a href="Air Condition Services">Air Condition Services</a></li>
+			<li><a href="Gardening Services">Gardening Services</a></li>
+			<li><a href="Cleaning Services">Cleaning Services</a></li>
+			<li><a href="Pickup and Delivery Services">Pickup and Delivery Services</a></li>
+			<li><a href="Labour Services">Labour Services</a></li>
+			<li><a href="Plumber Services">Plumber Services</a></li>
+			<li><a href="Welder Services">Welder Services</a></li>
+			<li><a href="Tailor Services">Tailor Services</a></li>
+			<li><a href="Painter Services">Painter Services</a></li>
+			<li><a href="Car Wash and Repairing Services">Car Wash and Repairing Services</a></li>
+			<li><a href="Computer Support Services">Computer Support Services</a></li>
+			<li><a href="Makeup Artist Services">Makeup Artist Services</a></li>
+			<li><a href="Photography Services">Photography Services</a></li>
+			<li><a href="Wedding Planner Services">Wedding Planner Services</a></li>
+			<li><a href="CCTV Camera Services">CCTV Camera Services</a></li>
+		</ul> -->
+		<main>
+			<table>
+				<thead>
+					<tr>
+						<th>
+							Category Title
+						</th>
+						<th>
+							Category Description
+						</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<?php
+
+					$sql = "select * from category order by categoryid asc";
+					$query = $conn->query($sql);
+					if($query){
+					while ($row = $query->fetch_array()) {
+					?>
+
+						<tr>
+							<td data-title='Category Title'>
+								<?php echo $row['catname'] ?>
+							</td>
+							<td data-title='Category Description'>
+								<?php echo $row['description'] ?>
+							</td>
+							<td class='select'>
+								<form action="" method="post">
+
+									<input type="hidden" name='id' value="<?php echo $row['categoryid'];?>">
+									<button class='btn btn-success' type="submit" name="selectcat" >
+										Select
+									</button>
+								</form>
+							</td>
+						</tr>
+
+
+					<?php
+					}
+					}
+					?>
+				</tbody>
+			</table>
+		</main>
+
+
+	</div>
+</body>
+<footer>
+	<center>Copyright © Muhammad Usama Iqbal</center>
+</footer>
+
+</html>

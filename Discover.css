@@ -1,0 +1,42 @@
+body,html {
+	
+	height:100%;
+	margin: 0;
+
+}
+.bg-discover{
+  /* The image used */
+  
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.logo-img {
+  margin-top: -25px;
+width:9%; 
+/* height:4%;  */
+float:left;
+margin-left: 3%;
+
+}
+
+.logo a {
+text-decoration: none;
+cursor: pointer;
+}
+
+.discover-text{
+  /* color: rgb(255, 81, 81); */
+  color:#03b2c9;
+  margin-top: 3%;
+  margin-left: 45%;
+  font-size: 27px;
+   padding:9%;
+}

@@ -1,0 +1,25 @@
+h1{
+	border: 1px solid #dddddd;
+background-color: rgba(80,48,48,0.4);}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even,odd) {
+  background-color: #dddddd;
+}  
+td:hover{
+background-color: rgba(80,48,48,0.6);
+  opacity: 1;
+font-size:18px;
+ text-decoration: line-though;
+
+}

@@ -1,0 +1,271 @@
+
+
+
+.signinbtn{
+	float: right;
+	background-color: #4CAF50; /* Green */
+	border: none;
+	padding: 6px 18px;
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	margin-top: 18px;
+	margin-right: 24px;
+}
+
+.signupbtn{
+	float: right;
+	background-color: #4CAF50; /* Green */
+	border: none;
+	padding: 6px 18px;
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	margin-top: 18px;
+	margin-right: 24px;
+}
+
+
+.signinbtn:hover{
+	background-color:rgba(31, 102, 255, 0.3);
+overflow:auto;			
+}
+.signupbtn:hover{
+	background-color:rgba(31, 102, 255, 0.3);
+overflow:auto;			
+}
+
+
+ ul li1{
+float:left;
+width:160px;
+line-height:40px;
+text-align:center;
+font-size:2.5vw;
+overflow:auto;	
+}
+ul li1 a{
+	text-decoration:none;
+	color:white;
+	display:block inline;
+	overflow:auto;	
+	
+}
+
+ul li1 a:hover{
+		color:rgba(1, 34, 105, 0.3);
+overflow:auto;			
+}
+
+
+
+ul li2{
+float:left;
+width:170px;
+line-height:40px;
+text-align:center;
+font-size:2.5vw;
+	}
+ul li2 a{
+	text-decoration:none;
+	color:white;
+	display:block inline;	
+
+}
+ul li2 a:hover{
+		color:rgb(1, 34, 105, 0.3);
+}
+ul li2 ul li{
+	display:none;
+	
+	
+}
+ul li2:hover ul li{
+	display:block;
+		font-size:1vw;
+	color:rgb(1, 34, 105, 0.3);	
+	
+}
+ul{
+	display:block;
+	max-width:100%;
+	height:auto;
+
+}
+
+
+ul li3{
+float:left;
+width:170px;
+line-height:40px;
+text-align:center;
+font-size:2.5vw;
+
+	}
+ul li3 a{
+	text-decoration:none;
+	color:white;
+	display:block;
+
+}
+ul li3 a:hover{
+	color:rgb(1, 34, 105, 0.3);
+}
+ul li3 ul li{
+	display:none;
+	
+}
+ul li3:hover ul li{
+	display:block;
+		font-size:1vw;
+	color:rgb(1, 34, 105, 0.3);
+	
+}
+
+
+
+
+ul li4{
+float:left;
+width:270px;
+line-height:40px;
+text-align:center;
+font-size:2.2vw;	
+
+	}
+ul li4 a{
+	text-decoration:none;
+	color:white;
+	display:block;
+
+}
+ul li4 a:hover{
+		color:rgb(1, 34, 105, 0.3);
+}
+ul li4 ul li{
+	display:none;
+	
+}
+ul li4:hover ul li{
+	display:block;
+		font-size:1vw;
+	color:rgb(1, 34, 105, 0.3);
+}
+
+
+ul li5{
+float:left;
+width:160px;
+line-height:40px;
+text-align:center;
+font-size:2.5vw;	
+
+	}
+ul li5 a{
+	text-decoration:none;
+	color:white;
+	display:block;
+
+}
+ul li5 a:hover{
+		color:rgb(1, 34, 105, 0.3);
+}
+ul li5 ul li{
+	display:none;
+	
+}
+ul li5:hover ul li{
+	display:block;
+		font-size:1vw;
+	color:rgb(1, 34, 105, 0.3);
+	
+}
+
+
+ul li6{
+float:left;
+width:150px;
+line-height:40px;
+text-align:center;
+font-size:2.5vw;	
+
+	}
+ul li6 a{
+	text-decoration:none;
+	color:white;
+	display:block;
+
+}
+ul li6 a:hover{
+		color:rgb(1, 34, 105, 0.3);
+;
+}
+ul li6 ul li{
+	display:none;
+	
+}
+ul li6:hover ul li{
+	display:block;
+		font-size:1vw;
+	color: 	rgb(1, 34, 105, 0.3);
+	
+}
+
+body,html {
+	
+	height:100%;
+	margin: 0;
+
+}
+
+.bg-home{
+	  /* The image used */
+	  background-image: url("Home.jpeg");
+
+	  /* Full height */
+	  height: 100%; 
+	
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  overflow: hidden;
+}
+
+
+.logo-img {
+    margin-top: -25px;
+width:9%; 
+/* height:4%;  */
+float:left;
+margin-left: 3%;
+
+}
+
+.logo a {
+	text-decoration: none;
+	cursor: pointer;
+}
+/* #right{
+	float:left;
+	width:500px;
+	height:100px;
+	text-align:right;
+	
+}
+.footer{
+	width:1000px;
+	height:100px;
+	color:White;
+}
+#left{
+	float:left;
+	width:500px;
+	height:200px;
+	text-align:left;
+	display:inline-block;
+} */
